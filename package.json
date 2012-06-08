@@ -22,6 +22,12 @@
     "hook.io-twitter": "0.2.x",
     "hook.io-mailer": "0.3.x"
   },
+  "bundleDependencies": [
+    "hook.io",
+    "hook.io-irc",
+    "hook.io-mailer",
+    "hook.io-twitter"
+  ],
   "engines": {
     "node": ">= 0.4.x < 0.7.x"
   }
